@@ -6,6 +6,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import com.nttdata.ta.user.User;
+
 @Entity
 public class TodoItem {
 
