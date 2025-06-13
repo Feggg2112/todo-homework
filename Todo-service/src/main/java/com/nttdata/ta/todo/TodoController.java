@@ -57,4 +57,8 @@ public class TodoController {
         }
         return null;
     }
+
+    public String sayHello() {
+        return "Hello World";
+    }
 }

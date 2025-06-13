@@ -27,4 +27,9 @@ public class UserController {
         }
         return null;
     }
+
+    public String sayHello() {
+    	System.out.println("Hello World!");
+        return "Hello World!";
+    }
 }
