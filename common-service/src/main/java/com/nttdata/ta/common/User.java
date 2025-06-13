@@ -1,4 +1,4 @@
-package com.nttdata.ta.user;
+package com.nttdata.ta.common;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

@@ -18,7 +18,8 @@
         <module>User-service</module>
 		<module>Todo-service</module>
 		<module>Gateway-service</module>
-	</modules>
+        <module>common-service</module>
+    </modules>
 
     <properties>
 		<java.version>11</java.version>

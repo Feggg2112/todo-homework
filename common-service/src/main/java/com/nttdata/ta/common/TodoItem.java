@@ -1,11 +1,11 @@
-package com.nttdata.ta.todo;
+package com.nttdata.ta.common;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
-import com.nttdata.ta.user.User;
+import com.nttdata.ta.common.User;
 
 @Entity
 public class TodoItem {

@@ -10,7 +10,13 @@
     </parent>
 
     <artifactId>User-service</artifactId>
-
+    <dependencies>
+        <dependency>
+            <groupId>com.nttdata.ta</groupId>
+            <artifactId>common-service</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>

@@ -7,7 +7,7 @@ import javax.servlet.http.HttpSession;
 import java.util.List;
 import java.util.Optional;
 
-import com.nttdata.ta.user.User;
+import com.nttdata.ta.common.*;
 
 @RestController
 @RequestMapping("/todo")

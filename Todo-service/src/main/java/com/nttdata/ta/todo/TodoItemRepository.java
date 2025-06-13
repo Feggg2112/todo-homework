@@ -1,5 +1,6 @@
 package com.nttdata.ta.todo;
 
+import com.nttdata.ta.common.TodoItem;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;

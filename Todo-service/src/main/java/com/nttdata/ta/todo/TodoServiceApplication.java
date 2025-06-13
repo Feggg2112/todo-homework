@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-@EntityScan({"com.nttdata.ta.user","com.nttdata.ta.todo"})
+@EntityScan("com.nttdata.ta.common")
 @ComponentScan(basePackages = {"com.nttdata.ta.todo", "com.nttdata.ta.user"})
 public class TodoServiceApplication {
     public static void main(String[] args) {
